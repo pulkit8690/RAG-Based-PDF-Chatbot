@@ -19,7 +19,6 @@ This project implements a **Retrieval-Augmented Generation (RAG)** model using t
 📂 RAG-Based-PDF-Chatbot/
 │-- 📄 main.py                    # Main script for chatbot interaction
 │-- 📂 pdf/                       # Folder to store PDFs
-│-- 📂 embeddings/                # FAISS vector storage
 │-- 📄 user_sessions.json         # User chat history JSON
 │-- 📄 requirements.txt           # Required dependencies
 │-- 📄 README.md                  # Project documentation
