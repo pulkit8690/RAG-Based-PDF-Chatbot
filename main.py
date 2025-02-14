@@ -63,7 +63,7 @@ def load_pdfs_from_folder(folder_path):
     return documents
 
 
-pdf_folder_path = r"C:\Users\LEGION\Desktop\OLLAMA\data\combine pdfs"  ## folder path of pdfs
+pdf_folder_path = r"C:/Github/RAG-Based-PDF-Chatbot\pdfs"  ## folder path of pdfs
 
 
 documents = load_pdfs_from_folder(pdf_folder_path)
@@ -106,7 +106,7 @@ def get_response(user_id, query):
         retrieved_texts = [doc.page_content for doc in retrieved_docs]
 
         if not retrieved_texts:
-            return "I can only answer questions based on the uploaded HR documents. No relevant information was found for your query."
+            return "I can only answer questions based on the uploaded documents. No relevant information was found for your query."
 
         
         filtered_texts = [text for text in retrieved_texts if any(word in text.lower() for word in query.lower().split())]
