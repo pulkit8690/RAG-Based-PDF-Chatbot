@@ -1,1 +1,66 @@
-{"Pulkit": {"history": [{"query": "tell about work ethics", "response": "According to the \"Introduction to Ethics & Conduct\" document, maintaining high ethical standards is fundamental to the company culture. The purpose of this is to ensure a professional and respectful work environment while upholding integrity, honesty, and fairness in all actions. Employees are expected to act responsibly and professionally, and unethical conduct can lead to disciplinary actions."}, {"query": "can i work in Hybrid mode?", "response": "According to the \"Remote Work & Hybrid Policies\" document, eligibility criteria for hybrid work includes employees who have been with the company for at least 6 months. However, it does not specify a specific requirement for working in hybrid mode. It only mentions that employees should utilize their leave responsibly while ensuring minimal disruption to workflow."}]}}
+{
+    "Pulkit": {
+        "history": [
+            {
+                "query": "tell about work ethics",
+                "response": "According to the \"Introduction to Ethics & Conduct\" document, maintaining high ethical standards is fundamental to the company culture. The purpose of this is to ensure a professional and respectful work environment while upholding integrity, honesty, and fairness in all actions. Employees are expected to act responsibly and professionally, and unethical conduct can lead to disciplinary actions."
+            },
+            {
+                "query": "can i work in Hybrid mode?",
+                "response": "According to the \"Remote Work & Hybrid Policies\" document, eligibility criteria for hybrid work includes employees who have been with the company for at least 6 months. However, it does not specify a specific requirement for working in hybrid mode. It only mentions that employees should utilize their leave responsibly while ensuring minimal disruption to workflow."
+            }
+        ]
+    },
+    "101": {
+        "history": [
+            {
+                "query": "tell about leave policy",
+                "response": "According to the Leave & Time-Off Policies document, leave requests must be submitted via the HR portal or email, providing the reason and duration of leave. The request should be made in advance to allow proper planning. Approval depends on company policy and role requirements, with a sabbatical agreement possible for extended leaves."
+            }
+        ]
+    },
+    "102": {
+        "history": [
+            {
+                "query": "Hi",
+                "response": "Hello! I'm here to help answer your questions based on the provided documents. What's on your mind?"
+            },
+            {
+                "query": "can u help me the uploaded dciments",
+                "response": "I don't know what you're referring to with \"uploaded documents.\" Could you please provide more context or clarify which documents you are asking about? I'll do my best to assist you based on the provided Employee Handbook & Introduction to Company Policies."
+            },
+            {
+                "query": "tell me about virat kohli",
+                "response": "I don't know how to answer the question based on the provided documents. The documents do not contain any information related to Virat Kohli, which is a public figure outside of the context of the company's policies and guidelines. If you'd like to ask about something else or need help with a different topic, feel free to ask!"
+            },
+            {
+                "query": "tell me about Rohit Sharma",
+                "response": "I don't know how to answer the question based on the provided documents. The documents do not contain any information related to Rohit Sharma, which is a public figure outside of the context of the company's policies and guidelines. If you'd like to ask about something else or need help with a different topic, feel free to ask!"
+            },
+            {
+                "query": "tell about cognizant",
+                "response": "Cognizant is a leading global professional services company that specializes in consulting, technology, and operations. The documents do not provide extensive information about the company's history, mission, or services. However, it can be mentioned that Cognizant has provided the downloadable files for Windows 7, Windows 8, and Windows 10/11 as part of the online assessment guidebook."
+            }
+        ]
+    },
+    "Test": {
+        "history": [
+            {
+                "query": "Hi",
+                "response": "Hi! It's great to meet you. How can I assist you today?"
+            },
+            {
+                "query": "Tell me about Virat Kohli",
+                "response": "The uploaded documents do not contain this information."
+            },
+            {
+                "query": "Hi",
+                "response": "Hello! It's great to meet you. How can I assist you today?"
+            },
+            {
+                "query": "who is virat kohli",
+                "response": "The uploaded documents do not contain this information."
+            }
+        ]
+    }
+}
