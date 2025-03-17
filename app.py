@@ -56,7 +56,7 @@ def process_uploaded_pdfs():
     for file_name in os.listdir(UPLOAD_FOLDER):
         if file_name.endswith(".pdf"):
             pdf_path = os.path.join(UPLOAD_FOLDER, file_name)
-            try:
+            try:      
                 loader = PDFPlumberLoader(pdf_path)
                 documents.extend(loader.load())
                 print(f"Loaded PDF: {file_name}")
@@ -150,10 +150,15 @@ def chat():
     document_context = "\n\n".join(retrieved_texts[:4])
 
     if history_context:
-        prompt = f"""You are an AI assistant that can answer questions using provided documents and general knowledge. 
-If the user asks about something covered in the documents, STRICTLY use the given documents to answer concisely in at most five sentences.
-If the question is general and does not require document references, provide a natural response based on general knowledge.
-If the question is outside the scope of the documents (like famous personalities or general facts), clearly state "The uploaded documents do not contain this information."
+        prompt = f"""
+You are an AI assistant that answers user questions based on uploaded documents as the **primary** source. 
+Your responses must be **well-structured, clear, and formatted properly**.
+
+### **Rules for Answering:**
+1. If the question relates to the uploaded documents, **strictly use the provided content** and provide a **well-formed paragraph** instead of bullet points.
+2. If the question is general and does **not require** document references, provide a **natural, well-written response** based on general knowledge.
+3. If the requested information is **not found in the uploaded documents**, respond clearly with:
+   - **"The uploaded documents do not contain this information. You may try rephrasing your query or providing more details."**""
 
 Conversation history:
 {history_context}
@@ -165,10 +170,24 @@ Current query:
 User: {query}
 Assistant:"""
     else:
-        prompt = f"""You are an AI assistant that can answer questions using provided documents and general knowledge. 
-If the user asks about something covered in the documents, STRICTLY use the given documents to answer concisely in at most five sentences.
-If the question is general and does not require document references, provide a natural response based on general knowledge.
-If the question is outside the scope of the documents (like famous personalities or general facts), clearly state "The uploaded documents do not contain this information."
+        prompt = f"""
+You are an AI assistant that answers user questions based on uploaded documents as the **primary** source. 
+Your responses must be **well-structured, clear, and formatted properly**.
+
+### **Rules for Answering:**
+1. If the question relates to the uploaded documents, **strictly use the provided content** and provide a **well-formed paragraph** instead of bullet points.
+2. If the question is general and does **not require** document references, provide a **natural, well-written response** based on general knowledge.
+3. If the requested information is **not found in the uploaded documents**, respond clearly with:
+   - **"The uploaded documents do not contain this information. You may try rephrasing your query or providing more details."**
+
+### **Uploaded Documents:**
+{document_context}
+
+### **User Query:**
+{query}
+
+### **Assistant's Response (in paragraph format):**
+""
 
 Documents:
 {document_context}

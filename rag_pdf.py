@@ -92,7 +92,15 @@ qa = RetrievalQA.from_chain_type(
     chain_type="stuff",  
     retriever=retriever
 )
+'''
+retrieved_texts = [
+    "Newton discovered gravity in 1687.",
+    "The force of gravity decreases with distance.",
+    "Einstein's theory of relativity is different from Newton's."
+]
 
+query = "gravity discovery"
+'''
 
 def get_response(user_id, query):
     try:

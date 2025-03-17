@@ -16,6 +16,10 @@
             {
                 "query": "tell about leave policy",
                 "response": "According to the Leave & Time-Off Policies document, leave requests must be submitted via the HR portal or email, providing the reason and duration of leave. The request should be made in advance to allow proper planning. Approval depends on company policy and role requirements, with a sabbatical agreement possible for extended leaves."
+            },
+            {
+                "query": "Hi tell about documents",
+                "response": "The uploaded documents provide information on various company policies, including Incident Reporting, Evaluation Criteria, Salary Structure, and Breach Response. These documents outline the procedures for reporting workplace accidents or hazards, evaluating employee performance, determining salaries, and responding to data breaches.\n\nIf you have any specific questions about these topics or would like more details, please feel free to ask."
             }
         ]
     },
@@ -46,20 +50,36 @@
     "Test": {
         "history": [
             {
-                "query": "Hi",
-                "response": "Hi! It's great to meet you. How can I assist you today?"
-            },
-            {
-                "query": "Tell me about Virat Kohli",
-                "response": "The uploaded documents do not contain this information."
+                "query": "Tell About Leave Policy",
+                "response": "The company has the following leave policies:\n\n* Approval for leaves depends on company policy and role requirements.\n* A sabbatical agreement may be signed for extended leaves.\n* Regular attendance is expected for smooth operations.\n* Leave requests must be approved in advance by the manager.\n* Emergency leaves should be reported at the earliest.\n* Paid leaves, sick leaves, and maternity/paternity leaves are available per company policy."
             },
             {
                 "query": "Hi",
-                "response": "Hello! It's great to meet you. How can I assist you today?"
+                "response": "Hello! It's great to meet you. How can I assist you today?\n\nYou can ask me questions about the uploaded documents, and I'll do my best to provide concise and accurate answers. If your question relates to the documents, I'll strictly use the provided content. If the information is not found in the documents, I'll respond clearly stating that.\n\nPlease go ahead and ask your question!"
             },
             {
-                "query": "who is virat kohli",
-                "response": "The uploaded documents do not contain this information."
+                "query": "Tell About Leave Policy",
+                "response": "The company has the following leave policies:\n\n* Approval for leaves depends on company policy and role requirements.\n* A sabbatical agreement may be signed for extended leaves.\n* Regular attendance is expected for smooth operations.\n* Leave requests must be approved in advance by the manager.\n* Emergency leaves should be reported at the earliest.\n* Paid leaves, sick leaves, and maternity/paternity leaves are available per company policy."
+            },
+            {
+                "query": "Hi",
+                "response": "Hello! It's great to meet you. How can I assist you today?\n\nYou can ask me questions about the uploaded documents, and I'll do my best to provide concise and accurate answers. If your question relates to the documents, I'll strictly use the provided content. If the information is not found in the documents, I'll respond clearly stating that.\n\nPlease go ahead and ask your question!"
+            },
+            {
+                "query": "Tell about leave policy",
+                "response": "According to the uploaded documents, the company's leave policies are as follows:\n\nThe company offers various types of leaves, including paid leaves, sick leaves, and maternity/paternity leaves. Leave requests must be approved in advance by the manager, and regular attendance is expected for smooth operations.\n\nAdditionally, a sabbatical agreement may be signed for extended leaves, allowing employees to balance work and personal needs effectively.\n\nIt's worth noting that approval for leaves depends on company policy and role requirements, and emergency leaves should be reported at the earliest."
+            }
+        ]
+    },
+    "test": {
+        "history": [
+            {
+                "query": "Hi",
+                "response": "Hello! I'd be happy to help you. How can I assist you today?"
+            },
+            {
+                "query": "Tell About Leave Policy",
+                "response": "According to the uploaded documents, the company's leave policies include:\n\n* Approval of leave requests depends on company policy and role requirements.\n* A sabbatical agreement may be signed for extended leaves.\n* Paid leaves, sick leaves, and maternity/paternity leaves are available per company policy.\n* Leave requests must be approved in advance by the manager.\n* Regular attendance is expected for smooth operations."
             }
         ]
     }
