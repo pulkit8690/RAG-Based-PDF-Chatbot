@@ -81,7 +81,6 @@ embeddings = HuggingFaceEmbeddings(
     model_kwargs={"device": device}  # Use GPU if available
 )
 
-
 db = FAISS.from_documents(texts, embeddings)
 
 retriever = db.as_retriever(search_type="mmr", search_kwargs={"k": 5})

@@ -14,21 +14,29 @@
     "101": {
         "history": [
             {
-                "query": "tell about leave policy",
-                "response": "According to the Leave & Time-Off Policies document, leave requests must be submitted via the HR portal or email, providing the reason and duration of leave. The request should be made in advance to allow proper planning. Approval depends on company policy and role requirements, with a sabbatical agreement possible for extended leaves."
+                "query": "What are timings of the Company",
+                "response": "The uploaded documents do not contain specific information about company opening or closing times, nor is this information mentioned in the provided sections. If you're looking for general information on business hours, it's likely that a typical working day starts between 9:00 AM and 10:00 AM, with lunch breaks and short breaks throughout the day. However, without more context, I couldn't find specific details about company opening or closing times in the provided documents."
             },
             {
-                "query": "Hi tell about documents",
-                "response": "The uploaded documents provide information on various company policies, including Incident Reporting, Evaluation Criteria, Salary Structure, and Breach Response. These documents outline the procedures for reporting workplace accidents or hazards, evaluating employee performance, determining salaries, and responding to data breaches.\n\nIf you have any specific questions about these topics or would like more details, please feel free to ask."
+                "query": "Tell abour work etics",
+                "response": "The uploaded Workplace Conduct & Ethics Manual outlines the company's standards for ethical behavior, workplace conduct, and policies regarding acceptable use of resources, conflicts of interest, and disciplinary actions. According to the document, employees are expected to act in the best interest of the organization, transparency is key in maintaining trust and ethical compliance, and proper use of resources ensures workplace efficiency and data security. The manual also emphasizes the importance of avoiding situations that create conflicts between personal and company interests, reporting potential conflicts to HR or management, and enforcing a zero-tolerance policy against harassment and discrimination."
+            },
+            {
+                "query": "Hi tell about template",
+                "response": "The uploaded documents do not contain specific information about project templates. However, it is mentioned that a suitable editor can be used for free, such as Canva, which helps with development budgeting. Additionally, Git, an open-source version control system, will be employed to effectively manage code changes and teamwork on the project."
+            },
+            {
+                "query": "How to make report I am asking about tha",
+                "response": "The uploaded documents do not contain specific information about how to create a report. However, it is mentioned that suitable editors can be used for free, such as Canva, which helps with development budgeting. Additionally, Git, an open-source version control system, will be employed to effectively manage code changes and teamwork on the project.\n\nIf you're looking for general information on creating reports, I can suggest that you consider using a template or tool that suits your needs. Could you please provide more context or clarify what type of report you are trying to create?"
+            },
+            {
+                "query": "Tell about JD of the company",
+                "response": "Based on the provided document, Twin Engineers Private Limited is seeking a passionate Sales Associate to join their team. The job description outlines the key responsibilities of the role, which include:\n\nProspecting in assigned sales territory / Cold Calls\nTechnical study of client requirement / RFQ (Request for Quote)\nPreparation of Technical & Commercial offer\nClient Follow-up, Negotiation & Deal closing persuasively\n\nThe Sales Associate will also be responsible for existing customer courtesy visits, attending internal and external client meetings, preparing sales reports, and coordinating with various departments such as CFT, design, and production.\n\nTo be eligible for this role, the candidate should have a 2025 pass-out batch and possess strong verbal and written communication skills. Prior experience in sales is preferred, but not mandatory. The salary range for this position is INR. 4.00 LPA to INR. 5.00 LPA."
             }
         ]
     },
     "102": {
         "history": [
-            {
-                "query": "Hi",
-                "response": "Hello! I'm here to help answer your questions based on the provided documents. What's on your mind?"
-            },
             {
                 "query": "can u help me the uploaded dciments",
                 "response": "I don't know what you're referring to with \"uploaded documents.\" Could you please provide more context or clarify which documents you are asking about? I'll do my best to assist you based on the provided Employee Handbook & Introduction to Company Policies."
@@ -44,6 +52,10 @@
             {
                 "query": "tell about cognizant",
                 "response": "Cognizant is a leading global professional services company that specializes in consulting, technology, and operations. The documents do not provide extensive information about the company's history, mission, or services. However, it can be mentioned that Cognizant has provided the downloadable files for Windows 7, Windows 8, and Windows 10/11 as part of the online assessment guidebook."
+            },
+            {
+                "query": "tell about privacy",
+                "response": "Based on the provided documents, the company emphasizes the importance of privacy and confidentiality in its policies. The Data Protection & Employee Privacy document outlines the company's policies on data protection, confidentiality, employee privacy, and security measures related to remote access and data breaches.\n\nThe company follows a structured response plan in case of a data breach, which includes immediate notification of affected employees/customers, application of security patches, and regular audits to prevent future incidents. The company also enforces strict confidentiality protocols, including secure data handling, encryption, and password protection for confidential documents. Role-based access control ensures data security, and employees are restricted from sharing confidential data without approval.\n\nThe Employee Data Collection document highlights the importance of transparent data collection, ensuring compliance and trust in data handling. Employees can request access or deletion of their personal data, and the company retains data only as long as necessary for legal and operational reasons.\n\nOverall, the company prioritizes privacy and confidentiality, implementing robust security measures to protect sensitive information and maintain trust with its employees and customers."
             }
         ]
     },
